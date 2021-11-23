@@ -1,0 +1,14 @@
+alias zim='vim ~/.zshrc'
+alias fim='vim fastlane/Fastfile'
+
+alias be='bundle exec'
+alias fl='bundle exec fastlane'
+alias rspec='bundle exec rspec'
+alias rake='noglob bundle exec rake'
+
+alias flrubo='RUBYOPT="-W0" be rubocop -a && be rubocop -D'
+
+alias ungit="git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached"
+alias gittrim="git branch --merged | egrep -v '(^\*|master|dev)' | xargs git branch -d"
+
+alias love="/Applications/love.app/Contents/MacOS/love"
