@@ -9,6 +9,7 @@ brew "fzf"
 # Other tools
 brew "gnupg"
 brew "highlight"
+brew "imagemagick"
 brew "wget"
 
 # Version managers
