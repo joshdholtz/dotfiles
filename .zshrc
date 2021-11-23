@@ -30,16 +30,4 @@ else
   alias brew='/opt/homebrew/bin/brew'
 fi
 
-# Ruby
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-# NVM
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 tmux_chooser
