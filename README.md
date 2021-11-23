@@ -1,8 +1,10 @@
 # Josh's dotfiles
 
-![Screen Shot 2021-11-22 at 11 00 53 PM](https://user-images.githubusercontent.com/401294/142973757-a530bb6b-afcd-42fa-9c79-e830112172bd.png)
+![Screen Shot 2021-11-22 at 11 17 48 PM](https://user-images.githubusercontent.com/401294/142974786-b6e56c5f-43ab-451f-bee8-3c84d65adabc.png)
 
 ## Installation
+
+Clone and run...
 
 ```
 ./boostrap.sh
