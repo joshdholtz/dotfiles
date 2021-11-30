@@ -1,0 +1,68 @@
+wtf:
+  colors:
+    border:
+      focusable: darkslateblue
+      focused: orange
+      normal: gray
+  mods:
+    fastlaneprs:
+      title: "fastlane/fastlane"
+      baseURL: ""
+      enabled: true
+      enableStatus: true
+      refreshInterval: 5m
+      showMyPullRequests: false
+      showOpenReviewRequests: false
+      showStats: false
+      customQueries:
+        othersPRs:
+          title: "Pull Requests"
+          filter: "is:open is:pr"
+      repositories:
+        - "fastlane/fastlane"
+      type: "github"
+      position:
+        top: 1
+        left: 0
+        width: 2
+        height: 3
+    fastlanecommunityprs:
+      title: "fastlane-community"
+      baseURL: ""
+      enabled: true
+      enableStatus: true
+      refreshInterval: 5m
+      showMyPullRequests: false
+      showOpenReviewRequests: false
+      showStats: false
+      customQueries:
+        othersPRs:
+          title: "Pull Requests"
+          filter: "is:open is:pr"
+      repositories:
+        - "fastlane-community/xcresult"
+        - "fastlane-community/trainer"
+        - "fastlane-community/danger-xcov"
+        - "fastlane-community/fastlane-plugin-s3"
+        - "fastlane-community/fastlane-plugin-appicon"
+        - "fastlane-community/fastlane-plugin-ionic"
+        - "fastlane-community/fastlane-plugin-aws_sns"
+        - "fastlane-community/xcov"
+        - "fastlane-community/security"
+        - "fastlane-community/fastlane-plugin-applivery"
+        - "fastlane-community/xcov-core"
+        - "fastlane-community/fastlane-plugin-clean_testflight_testers"
+        - "fastlane-community/README"
+        - "fastlane-community/fastlane-plugin-cordova_screenshots"
+        - "fastlane-community/fastlane-plugin-validate_app"
+        - "fastlane-community/fastlane-plugin-carthage_cache"
+        - "fastlane-community/fastlane-plugin-get_current_swift_version"
+        - "fastlane-community/fastlane-plugin-slack_train"
+        - "fastlane-community/fastlane-ftp-plugin"
+      type: "github"
+      position:
+        top: 0
+        left: 0
+        height: 1
+        width: 2
+term: "xterm-256color"

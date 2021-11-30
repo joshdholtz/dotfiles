@@ -6,6 +6,9 @@ brew "tmux"
 brew "gh"
 brew "fzf"
 
+# CLI extras
+brew "wtfutil"
+
 # Other tools
 brew "gnupg"
 brew "highlight"
