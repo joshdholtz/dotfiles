@@ -14,6 +14,7 @@ brew "wtfutil"
 brew "gnupg"
 brew "highlight"
 brew "imagemagick"
+brew "watchman"
 brew "wget"
 
 # Version managers
