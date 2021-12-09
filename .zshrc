@@ -30,4 +30,4 @@ else
   alias brew='/opt/homebrew/bin/brew'
 fi
 
-tmux_chooser
+#tmux_chooser
