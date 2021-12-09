@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/core"
 
 # CLI necessities 
+brew "ag"
 brew "tmux"
 brew "gh"
 brew "fzf"
@@ -20,6 +21,7 @@ brew "asdf"
 brew "chruby"
 brew "ruby-install"
 brew "nvm"
+cask "xcodes"
 
 # I just need this
 brew "libffi"
