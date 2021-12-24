@@ -12,6 +12,7 @@ brew "wtfutil"
 
 # Other tools
 brew "gnupg"
+brew "gradle"
 brew "highlight"
 brew "imagemagick"
 brew "watchman"
@@ -23,6 +24,7 @@ brew "chruby"
 brew "ruby-install"
 brew "nvm"
 cask "xcodes"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 
 # I just need this
 brew "libffi"
