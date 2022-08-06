@@ -7,9 +7,6 @@ brew "tmux"
 brew "gh"
 brew "fzf"
 
-# CLI extras
-brew "wtfutil"
-
 # Other tools
 brew "gnupg"
 brew "gradle"
@@ -24,7 +21,6 @@ brew "chruby"
 brew "ruby-install"
 brew "nvm"
 cask "xcodes"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
 
 # I just need this
 brew "libffi"
