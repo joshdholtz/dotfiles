@@ -12,3 +12,6 @@ alias ungit="git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached"
 alias gittrim="git branch --merged | egrep -v '(^\*|master|dev)' | xargs git branch -d"
 
 alias love="/Applications/love.app/Contents/MacOS/love"
+
+# Used for fastlane docs `python hooks.py` (not great but whatever)
+alias python=/usr/local/bin/python3
